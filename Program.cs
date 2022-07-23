@@ -7,8 +7,9 @@ namespace csharp
     {
         public static void Main()
         {
-            LongestPalindromicString lps = new LongestPalindromicString();
-            lps.Find("babad");
+            int[] arr = new int[] { 1, 5, 8, 9, 10, 17, 17, 20 };
+            int size = arr.Length;
+            Console.WriteLine($"Maximum obtainable value is {CuttingRodProblem.CutRod(arr,size)}");
         }
     }
 }
