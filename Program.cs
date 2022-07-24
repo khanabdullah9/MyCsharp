@@ -7,9 +7,10 @@ namespace csharp
     {
         public static void Main()
         {
-            int[] arr = new int[] { 1, 5, 8, 9, 10, 17, 17, 20 };
-            int size = arr.Length;
-            Console.WriteLine($"Maximum obtainable value is {CuttingRodProblem.CutRod(arr,size)}");
+            string input = "babad";
+            string input2 = "zqbabre";
+            var op = LongestPalindromicString.LongestPalindrome(input2);
+            Console.WriteLine("Lenght is "+op);
         }
     }
 }
